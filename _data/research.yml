@@ -1,21 +1,38 @@
 # Research areas shown on the home page.
-# `icon` is any single character or emoji; swap for an <img> in
-# _pages/about.md if you prefer real icons.
+#   icon   : any single character or emoji
+#   text   : one-sentence summary of the area
+#   topics : the concrete sub-topics listed under the area
+# Add or remove entries freely — the grid reflows automatically.
+
+- icon: "⚙"
+  title: "Software Security"
+  text: >-
+    Analyzing malicious software and turning that analysis into detection
+    that holds up against evolving samples.
+  topics:
+    - name: "Malware variant"
+      text: "Identifying and classifying variants of known malware families."
+    - name: "Detection rule"
+      text: "Generating and evaluating rules that generalize beyond a single sample."
 
 - icon: "◈"
-  title: "Threat Intelligence"
+  title: "Cyber Threat Intelligence"
   text: >-
-    Collecting and structuring threat data from OSINT and underground sources,
-    and standardizing it with STIX/TAXII for automated sharing.
-
-- icon: "⌁"
-  title: "Threat Actor Attribution"
-  text: >-
-    Profiling APT campaigns through TTP analysis and linking observed activity
-    to known adversary groups.
+    Making threat data trustworthy and usable — from assessing the sources
+    to delivering the finished report.
+  topics:
+    - name: "Data evaluation"
+      text: "Assessing the quality, reliability, and timeliness of threat data."
+    - name: "Report generation"
+      text: "Turning analyzed intelligence into structured, actionable reports."
 
 - icon: "☍"
-  title: "Dark Web Monitoring"
+  title: "Privacy Protection in Web"
   text: >-
-    Tracking underground forums and marketplaces to detect leaked credentials
-    and early indicators of attack.
+    Studying how users are tracked and exposed on the web, and building
+    defenses at the browser layer.
+  topics:
+    - name: "Ad/tracker detection & blocking"
+      text: "Detecting advertising and tracking behavior, and blocking it effectively."
+    - name: "Browser vulnerability"
+      text: "Finding and analyzing vulnerabilities that undermine user privacy."

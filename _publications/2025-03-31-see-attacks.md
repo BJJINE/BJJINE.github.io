@@ -1,4 +1,3 @@
-# _publications/2025-03-31-see-attacks.md
 ---
 title: "Stealth Extension Exfiltration (SEE) Attacks: Stealing User Data without Permissions via Browser Extensions"
 collection: publications

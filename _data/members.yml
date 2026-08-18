@@ -20,57 +20,32 @@ faculty:
       - { label: "CV",             url: "/files/cv.pdf" }
 
 researchers:
-  - name: "Doyoon Kang"
-    role: "Postdoctoral Researcher"
-    topic: "Threat intelligence platforms"
-    photo: ""
+#   - name: "Doyoon Kang"
+#     role: "Postdoctoral Researcher"
+#     topic: "Threat intelligence platforms"
+#     photo: ""
 
 phd:
-  - name: "Minjun Kim"
-    role: "Ph.D. Candidate"
-    topic: "APT TTP analysis, attribution"
-    photo: ""
-  - name: "Seoyeon Lee"
-    role: "Ph.D. Student"
-    topic: "Dark web monitoring, OSINT"
-    photo: ""
+#   - name: "Minjun Kim"
+#     role: "Ph.D. Candidate"
+#     topic: "APT TTP analysis, attribution"
+#     photo: ""
+
 
 masters:
-  - name: "Jihoon Park"
-    role: "M.S. Student"
-    topic: "Automated malware analysis"
-    photo: ""
-  - name: "Sua Choi"
-    role: "M.S. Student"
-    topic: "Deep learning for phishing detection"
-    photo: ""
-  - name: "Haneul Jeong"
-    role: "M.S. Student"
-    topic: "IoT vulnerability analysis"
-    photo: ""
+#   - name: "Jihoon Park"
+#     role: "M.S. Student"
+#     topic: "Automated malware analysis"
+#     photo: ""
 
 undergraduates:
-  - name: "Yena Seo"
-    role: "B.S. Student"
-    photo: ""
-  - name: "Junho Baek"
-    role: "B.S. Student"
-    photo: ""
+#   - name: "Yena Seo"
+#     role: "B.S. Student"
+#     photo: ""
+
 
 alumni:
-  - name: "Taeyang Yoon"
-    degree: "M.S."
-    year: 2024
-    position: "Samsung SDS, Security Operations"
-  - name: "Seojun Han"
-    degree: "Ph.D."
-    year: 2023
-    position: "Assistant Professor, OO University"
-  - name: "Gaeun Lim"
-    degree: "M.S."
-    year: 2022
-    position: "AhnLab, Threat Analysis Team"
-  - name: "Jiho Oh"
-    degree: "M.S."
-    year: 2021
-    position: "SK Shieldus, CTI Team"
+#   - name: "Taeyang Yoon"
+#     degree: "M.S."
+#     year: 2024
+#     position: "Samsung SDS, Security Operations"

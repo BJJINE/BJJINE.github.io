@@ -69,6 +69,32 @@ h2.block { @include block-heading; }
   p  { color: $text-muted; font-size: 0.94rem; }
 }
 
+.area-topics {
+  margin-top: 14px;
+  border-top: 1px solid $border;
+
+  li {
+    padding: 9px 0 9px 14px;
+    position: relative;
+    font-size: 0.9rem;
+
+    // small teal bullet
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 17px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: $accent;
+    }
+  }
+
+  .topic-name { display: block; color: $navy; font-weight: 500; }
+  .topic-text { display: block; color: $text-muted; font-size: 0.85rem; line-height: 1.55; }
+}
+
 .news li {
   display: flex;
   gap: 20px;

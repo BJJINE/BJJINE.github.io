@@ -2,9 +2,20 @@
 //  Members page
 // =============================================================
 
+// ---------- photo frame ----------
+// Every photo box on the page uses the same 3:4 portrait frame, so members
+// whose photos have different original dimensions still line up in the grid.
+//
+// $photo-ratio is written as a decimal on purpose: GitHub Pages compiles with
+// libsass, which would evaluate `3 / 4` as a division anyway. 0.75 is the same
+// ratio and avoids any ambiguity.
+$photo-ratio: 0.75;   // width ÷ height  →  3 : 4
+$photo-w:     170px;  // Faculty photo width
+
 .photo {
-  width: 170px;
-  height: 170px;
+  width: $photo-w;
+  height: auto;
+  aspect-ratio: $photo-ratio;
   flex-shrink: 0;
   border-radius: $radius;
   overflow: hidden;
@@ -14,7 +25,14 @@
   align-items: center;
   justify-content: center;
 
-  img { width: 100%; height: 100%; object-fit: cover; }
+  // `contain` keeps the whole photo visible — a photo that is not 3:4 gets a
+  // light margin above/below or left/right instead of being cropped.
+  // Switch to `cover` if you would rather fill the frame and crop the edges.
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 
   .photo-ph { color: #c9c9c9; font-size: 0.72rem; letter-spacing: 0.6px; }
 }
@@ -59,8 +77,9 @@
 }
 
 .person {
-  // `1 / 1` would be evaluated as Sass division; `1` means the same thing in CSS.
-  .photo { width: 100%; height: auto; aspect-ratio: 1; margin-bottom: 12px; }
+  // Grid photos stretch to the column width but keep the same 3:4 frame,
+  // so every card in a row is exactly the same height.
+  .photo { width: 100%; height: auto; aspect-ratio: $photo-ratio; margin-bottom: 12px; }
   h4 { font-size: 0.98rem; font-family: $font-body; font-weight: 500; color: $text; }
   .role  { color: $text-muted; font-size: 0.85rem; }
   .topic { color: $text-muted; font-size: 0.82rem; margin-top: 4px; }

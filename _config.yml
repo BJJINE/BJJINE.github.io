@@ -17,9 +17,9 @@ institution_url  : "https://security.ajou.ac.kr/security/index.do"
 
 # TODO: for a user site use https://<username>.github.io and leave baseurl empty.
 #       for a project site use baseurl: "/<repo-name>"
-url              : "https://your-username.github.io"
+url              : "https://bjjine.github.io"
 baseurl          : ""
-repository       : "your-username/your-username.github.io"
+repository       : "BJJINE/BJJINE.github.io"
 
 logo             : "/images/logo.svg"        # full lockup, used on the home page
 logo_mark        : "/images/logo-mark.svg"   # shield only, used in the navbar

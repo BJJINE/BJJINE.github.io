@@ -5,5 +5,7 @@ type: conference
 date: 2025-03-31
 year: 2025
 authors: "Chaejin Lim, <b>Beomjin Jin</b>, Hyoungshick Kim"
-venue: "The 40th ACM/SIGAPP Symposium on Applied Computing (SAC)"
+venue: "ACM/SIGAPP Symposium on Applied Computing (SAC)"
+links:
+  - { label: "PDF",  url: "/files/see_attack.pdf" }
 ---

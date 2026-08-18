@@ -9,7 +9,7 @@ faculty:
   - name: "Beomjin Jin"                      # TODO
     role: "Assistant Professor"
     affiliation: "Department of Cyber Space, Ajou University"
-    photo: ""                                 # e.g. "professor.jpg"
+    photo: "Beomjin.jpg"                                 # e.g. "professor.jpg"
     bio: >-
       Beomjin Jin leads CTI Lab. He received his Ph.D. from Sungkyunkwan University.
       His research interests include software security, cyber threat intelligence and web security.

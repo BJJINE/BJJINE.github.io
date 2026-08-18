@@ -1,4 +1,3 @@
-# _publications/2019-11-11-kerberoid.md
 ---
 title: "Kerberoid: A Practical Android App Decompilation System with Multiple Decompilers"
 collection: publications

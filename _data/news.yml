@@ -1,11 +1,11 @@
 # News items shown on the home page. Newest first.
 # `date` is free text, so "Aug 2026" or "2026-08-01" both work.
 
-- date: "Aug 2026"
-  text: "Our paper accepted to **ASE 2026**."
-
 - date: "July 2026"
   text: "Serving on the Program Committee for **ACM RACS 2026**."
+
+- date: "July 2026"
+  text: "Our paper accepted to **ASE 2026**."
 
 # - date: "Mar 2026"
 #   text: "Minjun Kim successfully defended his Ph.D. dissertation. Congratulations!"

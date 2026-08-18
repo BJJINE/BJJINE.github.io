@@ -1,0 +1,96 @@
+// =============================================================
+//  Publications page
+// =============================================================
+
+.scholar-note { font-size: 0.94rem; color: $text-muted; margin-bottom: 22px; }
+
+.filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.filter-btn {
+  padding: 6px 16px;
+  border: 1px solid $border;
+  border-radius: 20px;
+  background: #fff;
+  font-family: inherit;
+  font-size: 0.87rem;
+  color: $text-muted;
+  cursor: pointer;
+  transition: .15s;
+
+  &:hover  { border-color: $accent; color: $accent-dark; }
+  &.active { background: $accent; border-color: $accent; color: #fff; }
+}
+
+.year-head {
+  font-family: $font-head;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #dcdcdc;
+  margin: 34px 0 8px;
+}
+
+.pub {
+  display: flex;
+  gap: 18px;
+  padding: 16px 0;
+  border-bottom: 1px solid $border;
+
+  &[hidden] { display: none; }
+}
+
+.tag {
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 3px;
+  height: fit-content;
+  white-space: nowrap;
+  margin-top: 4px;
+
+  &.journal    { background: $accent-soft; color: $accent-dark; }
+  &.conference { background: #e8eef6;      color: $navy; }
+  &.patent     { background: #fdeceb;      color: #b23b2e; }
+}
+
+.pub-title   { font-size: 1rem; color: $text; margin-bottom: 3px; }
+.pub-authors { font-size: 0.9rem; color: $text-muted; b { color: $navy; font-weight: 500; } }
+.pub-venue   { font-size: 0.9rem; color: $text-muted; font-style: italic; }
+
+.dl {
+  margin-top: 7px;
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+
+  a {
+    font-size: 0.74rem;
+    padding: 2px 9px;
+    border: 1px solid $border;
+    border-radius: 3px;
+    color: $text-muted;
+
+    &:hover { border-color: $accent; color: $accent-dark; text-decoration: none; }
+  }
+}
+
+// publication detail page
+.pub-detail-title { font-size: 1.7rem; letter-spacing: -0.4px; }
+.pub-detail-meta  { color: $text-muted; font-size: 0.95rem; margin: 8px 0 12px; }
+
+pre.bibtex {
+  background: $bg-soft;
+  border: 1px solid $border;
+  border-radius: $radius;
+  padding: 16px 18px;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.empty-msg { color: $text-muted; margin-top: 24px; }

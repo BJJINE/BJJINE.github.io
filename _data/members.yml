@@ -6,17 +6,16 @@
 # =============================================================
 
 faculty:
-  - name: "Gildong Hong"                      # TODO
+  - name: "Beomjin Jin"                      # TODO
     role: "Assistant Professor"
-    affiliation: "Department of Computer Science and Engineering, OO University"
+    affiliation: "Department of Cyber Space, Ajou University"
     photo: ""                                 # e.g. "professor.jpg"
     bio: >-
       Gildong Hong leads CTI Lab. He received his Ph.D. in Computer Science from OO University.
       His research interests include cyber threat intelligence, network security, and AI security.
     links:
-      - { label: "Email",          url: "mailto:professor@university.ac.kr" }
-      - { label: "Google Scholar", url: "#" }
-      - { label: "DBLP",           url: "#" }
+      - { label: "Email",          url: "mailto:jinbumjin@ajou.ac.kr" }
+      - { label: "Google Scholar", url: "https://scholar.google.com/citations?user=2VVd5HEAAAAJ" }
       - { label: "CV",             url: "/files/cv.pdf" }
 
 researchers:

@@ -11,8 +11,9 @@ description: "Cyber Threat Intelligence Lab (CTI Lab) — research on threat int
     <img class="hero-logo" src="{{ site.logo | relative_url }}" alt="{{ site.subtitle }}">
     <p class="lede">
       {{ site.description }}
-      Our research spans threat actor attribution, dark web monitoring, malware analysis,
-      and AI-driven detection — turning scattered signals into actionable defense.
+      We analyze malware and the rules that catch it, evaluate and report on threat data,
+      and study how users are tracked and exposed in the browser — turning scattered
+      signals into defenses that hold up in practice.
     </p>
     <p class="affil">
       <a href="{{ site.institution_url }}">{{ site.institution }}</a>
@@ -26,6 +27,16 @@ description: "Cyber Threat Intelligence Lab (CTI Lab) — research on threat int
         <div class="ico">{{ area.icon }}</div>
         <h3>{{ area.title }}</h3>
         <p>{{ area.text }}</p>
+        {% if area.topics %}
+          <ul class="area-topics">
+            {% for t in area.topics %}
+              <li>
+                <span class="topic-name">{{ t.name }}</span>
+                {% if t.text %}<span class="topic-text">{{ t.text }}</span>{% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
       </div>
     {% endfor %}
   </div>

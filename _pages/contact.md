@@ -26,20 +26,6 @@ description: "How to reach and how to find the Cyber Threat Intelligence Lab."
         <div class="k">Phone</div>
         <div class="v">{{ site.phone }}</div>
       </li>
-      <li>
-        <div class="k">Directions</div>
-        <div class="v">
-          Subway Line O, OO Station Exit O — 10 min walk.<br>
-          Bus OOO, get off at the OO University stop.
-        </div>
-      </li>
-      <li>
-        <div class="k">Parking</div>
-        <div class="v">
-          Underground parking is available at the Engineering Building
-          (prior registration required).
-        </div>
-      </li>
     </ul>
   </div>
 

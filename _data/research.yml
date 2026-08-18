@@ -19,21 +19,3 @@
   text: >-
     Tracking underground forums and marketplaces to detect leaked credentials
     and early indicators of attack.
-
-- icon: "⚙"
-  title: "Malware Analysis"
-  text: >-
-    Static and dynamic analysis of malicious binaries, automated family
-    classification, and behavior-based detection.
-
-- icon: "◇"
-  title: "AI Security"
-  text: >-
-    Machine learning for anomaly, phishing, and intrusion detection — and the
-    security of the machine learning models themselves.
-
-- icon: "◎"
-  title: "Vulnerability Research"
-  text: >-
-    Discovering and analyzing vulnerabilities in software and IoT systems, and
-    studying exploitation trends in the wild.

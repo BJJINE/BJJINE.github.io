@@ -10,20 +10,20 @@
     Analyzing malicious software and turning that analysis into detection
     that holds up against evolving samples.
   topics:
-    - name: "Malware variant"
+    - name: "Malware variant generation"
       text: "Identifying and classifying variants of known malware families."
-    - name: "Detection rule"
+    - name: "YARA rule generation"
       text: "Generating and evaluating rules that generalize beyond a single sample."
 
 - icon: "◈"
-  title: "Cyber Threat Intelligence"
+  title: "Cyber Threat Intelligence (CTI)"
   text: >-
     Making threat data trustworthy and usable — from assessing the sources
     to delivering the finished report.
   topics:
-    - name: "Data evaluation"
+    - name: "CTI data evaluation"
       text: "Assessing the quality, reliability, and timeliness of threat data."
-    - name: "Report generation"
+    - name: "CTI report generation"
       text: "Turning analyzed intelligence into structured, actionable reports."
 
 - icon: "☍"

@@ -1,0 +1,15 @@
+# Order of the links in the site header.
+# Remove an entry to hide it from the navigation bar.
+
+main:
+  - title: "Home"
+    url: /
+
+  - title: "Members"
+    url: /members/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Contact"
+    url: /contact/

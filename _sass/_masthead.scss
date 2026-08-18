@@ -1,0 +1,111 @@
+// =============================================================
+//  Site header (navbar) + footer
+// =============================================================
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid $border;
+}
+
+.nav-wrap {
+  max-width: $maxw;
+  margin: 0 auto;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: $navy;
+  &:hover { text-decoration: none; }
+
+  img { height: 42px; width: auto; }
+}
+
+.brand-text {
+  font-family: $font-head;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: -0.3px;
+  line-height: 1.2;
+
+  small {
+    display: block;
+    font-family: $font-body;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: $accent;
+    letter-spacing: 0.4px;
+  }
+}
+
+.site-nav {
+  ul { display: flex; gap: 4px; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    color: $text;
+    transition: color .15s, background .15s;
+
+    &:hover { color: $accent-dark; background: $bg-soft; text-decoration: none; }
+    &.active { color: $accent-dark; font-weight: 500; }
+  }
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 6px;
+
+  span { width: 22px; height: 2px; background: $navy; display: block; }
+}
+
+@media (max-width: $bp-nav) {
+  .site-nav ul {
+    position: absolute;
+    top: 100%;
+    left: 0; right: 0;
+    background: #fff;
+    flex-direction: column;
+    gap: 0;
+    padding: 8px 24px 16px;
+    border-bottom: 1px solid $border;
+    display: none;
+
+    &.open { display: flex; }
+  }
+  .site-nav a { padding: 10px 0; border-radius: 0; }
+  .burger { display: flex; }
+  .brand-text { font-size: 1.05rem; }
+}
+
+// ---------- footer ----------
+.site-footer {
+  border-top: 1px solid $border;
+  padding: 24px 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
+    color: $text-muted;
+    font-size: 0.85rem;
+  }
+}

@@ -51,7 +51,7 @@ description: "Cyber Threat Intelligence Lab (CTI Lab) — research on threat int
     {% endfor %}
   </ul>
 
-  <h2 class="block">Selected Publications</h2>
+  <h2 class="block">Recent Publications</h2>
   {% assign recent = site.publications | sort: "year" | reverse | slice: 0, 4 %}
   {% for p in recent %}
     {% include publication-item.html pub=p %}

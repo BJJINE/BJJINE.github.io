@@ -12,8 +12,8 @@ description      : >-
   intelligence, and privacy protection on the web.
 
 # TODO: replace with your own institution
-institution      : "Department of Computer Science and Engineering, OO University"
-institution_url  : "https://www.university.ac.kr"
+institution      : "Department of Cyber Space, Ajou University"
+institution_url  : "https://security.ajou.ac.kr/security/index.do"
 
 # TODO: for a user site use https://<username>.github.io and leave baseurl empty.
 #       for a project site use baseurl: "/<repo-name>"
@@ -26,13 +26,12 @@ logo_mark        : "/images/logo-mark.svg"   # shield only, used in the navbar
 favicon          : "/images/logo-mark.svg"
 
 # ---------- Lab contact (used on the Contact page and in the footer) ----------
-email            : "cti-lab@university.ac.kr"          # TODO
-phone            : "+82-2-000-0000"                    # TODO
-address          : "Room 305, Engineering Building, 000 OO-ro, OO-gu, Seoul 00000, Republic of Korea"  # TODO
-map_query        : "OO University Engineering Building" # TODO: used for the Google Maps embed
+email            : "jinbumjin@ajou.ac.kr"          # TODO
+address          : "Room 517, 206 Worldcup-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, 16499, Korea"  # TODO
+map_query        : "아주대학교 산학협력원" # TODO: used for the Google Maps embed
 
 # ---------- Social / academic links (leave blank to hide) ----------
-googlescholar    : "https://scholar.google.com/citations?user=XXXXXXXX"
+googlescholar    : "https://scholar.google.com/citations?user=2VVd5HEAAAAJ"
 github           : ""
 twitter          : ""
 linkedin         : ""

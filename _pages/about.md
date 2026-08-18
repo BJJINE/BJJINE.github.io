@@ -60,7 +60,7 @@ description: "Cyber Threat Intelligence Lab (CTI Lab) — research on threat int
 
   <div class="callout">
     <strong>We are recruiting.</strong> We are looking for motivated undergraduate and graduate
-    (M.S. and Ph.D.) students interested in cyber threat intelligence and system security.
+    (M.S. and Ph.D.) students interested in software security, cyber threat intelligence and web security.
     Please reach out at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
   </div>
 

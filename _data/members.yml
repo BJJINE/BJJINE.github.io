@@ -15,6 +15,7 @@ faculty:
       His research interests include software security, cyber threat intelligence and web security.
     links:
       - { label: "Email",          url: "mailto:jinbumjin@ajou.ac.kr" }
+      - { label: "dblp", url: "https://dblp.uni-trier.de/pid/222/0315.html" }
       - { label: "Google Scholar", url: "https://scholar.google.com/citations?user=2VVd5HEAAAAJ" }
       - { label: "CV",             url: "/files/cv.pdf" }
 

@@ -23,7 +23,7 @@ description: "How to reach and how to find the Cyber Threat Intelligence Lab."
         <div class="v"><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
       </li>
       <li>
-        <div class="k">Phone</div>
+        <div class="k">Tel</div>
         <div class="v">{{ site.phone }}</div>
       </li>
     </ul>

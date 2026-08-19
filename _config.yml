@@ -27,6 +27,7 @@ favicon          : "/images/logo-mark.svg"
 
 # ---------- Lab contact (used on the Contact page and in the footer) ----------
 email            : "jinbumjin@ajou.ac.kr"          # TODO
+phone            : "+82312193843"          # TODO
 address          : "Room 517, 206 Worldcup-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, 16499, Korea"  # TODO
 map_query        : "아주대학교 산학협력원" # TODO: used for the Google Maps embed
 

@@ -39,9 +39,9 @@ masters:
 #     photo: ""
 
 undergraduates:
-#   - name: "Yena Seo"
-#     role: "B.S. Student"
-#     photo: ""
+  - name: "Yunseo Cho"
+    role: "B.S. Student"
+    photo: "Yunseo.jpg"
 
 
 alumni:

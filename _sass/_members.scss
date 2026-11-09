@@ -71,27 +71,35 @@ $photo-w:     170px;  // Faculty photo width
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 28px 24px;
-
+ 
   @media (max-width: 820px) { grid-template-columns: repeat(3, 1fr); }
   @media (max-width: 560px) { grid-template-columns: repeat(2, 1fr); }
 }
-
+ 
 .person {
-  // Grid photos stretch to the column width but keep the same 3:4 frame,
-  // so every card in a row is exactly the same height.
-  .photo { width: 100%; height: auto; aspect-ratio: $photo-ratio; margin-bottom: 12px; }
+  // Grid photos keep the same 3:4 frame as the Faculty photo but are capped at
+  // $photo-grid-w, so they stay small and every card in a row matches.
+  // The cap also stops them from blowing up when a section has few members.
+  .photo {
+    width: 100%;
+    max-width: $photo-grid-w;
+    height: auto;
+    aspect-ratio: $photo-ratio;
+    margin-bottom: 12px;
+  }
+ 
   h4 { font-size: 0.98rem; font-family: $font-body; font-weight: 500; color: $text; }
   .role  { color: $text-muted; font-size: 0.85rem; }
   .topic { color: $text-muted; font-size: 0.82rem; margin-top: 4px; }
 }
-
+ 
 table.alumni {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.94rem;
-
+ 
   th, td { text-align: left; padding: 11px 12px; border-bottom: 1px solid $border; }
-
+ 
   th {
     color: $text-muted;
     font-weight: 500;
@@ -99,6 +107,6 @@ table.alumni {
     text-transform: uppercase;
     letter-spacing: 0.6px;
   }
-
+ 
   tbody tr:hover { background: $bg-soft; }
 }

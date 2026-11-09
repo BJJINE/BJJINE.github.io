@@ -1,7 +1,7 @@
 // =============================================================
 //  Members page
 // =============================================================
-
+ 
 // ---------- photo frame ----------
 // Every photo box on the page uses the same 3:4 portrait frame, so members
 // whose photos have different original dimensions still line up in the grid.
@@ -9,9 +9,10 @@
 // $photo-ratio is written as a decimal on purpose: GitHub Pages compiles with
 // libsass, which would evaluate `3 / 4` as a division anyway. 0.75 is the same
 // ratio and avoids any ambiguity.
-$photo-ratio: 0.75;   // width ÷ height  →  3 : 4
-$photo-w:     170px;  // Faculty photo width
-
+$photo-ratio:  0.75;   // width ÷ height  →  3 : 4
+$photo-w:      170px;  // Faculty photo width
+$photo-grid-w: 130px;  // Max width of a student / researcher photo in the grid
+ 
 .photo {
   width: $photo-w;
   height: auto;
@@ -24,7 +25,7 @@ $photo-w:     170px;  // Faculty photo width
   display: flex;
   align-items: center;
   justify-content: center;
-
+ 
   // `contain` keeps the whole photo visible — a photo that is not 3:4 gets a
   // light margin above/below or left/right instead of being cropped.
   // Switch to `cover` if you would rather fill the frame and crop the edges.
@@ -33,28 +34,28 @@ $photo-w:     170px;  // Faculty photo width
     height: 100%;
     object-fit: contain;
   }
-
+ 
   .photo-ph { color: #c9c9c9; font-size: 0.72rem; letter-spacing: 0.6px; }
 }
-
+ 
 .faculty {
   display: flex;
   gap: 34px;
   align-items: flex-start;
   margin-bottom: 8px;
-
+ 
   @media (max-width: $bp-sm) { flex-direction: column; gap: 22px; }
-
+ 
   h3 { font-size: 1.4rem; margin-bottom: 2px; }
   .title { color: $text-muted; font-size: 0.96rem; margin-bottom: 14px; }
   p { font-size: 0.96rem; color: #333; margin-bottom: 14px; }
 }
-
+ 
 .links {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-
+ 
   a {
     font-size: 0.82rem;
     padding: 4px 12px;
@@ -62,11 +63,11 @@ $photo-w:     170px;  // Faculty photo width
     border-radius: 20px;
     color: $text-muted;
     transition: .15s;
-
+ 
     &:hover { border-color: $accent; color: $accent-dark; text-decoration: none; }
   }
 }
-
+ 
 .people-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

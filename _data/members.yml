@@ -33,16 +33,27 @@ phd:
 
 
 masters:
-#   - name: "Jihoon Park"
-#     role: "M.S. Student"
-#     topic: "Automated malware analysis"
-#     photo: ""
+  - name: "Priyodarshinee Moitra"
+    role: "M.S. Student"
+    topic: "ML Security"
+    photo: "roro"
 
 undergraduates:
   - name: "Yunseo Cho"
     role: "B.S. Student"
     photo: "Yunseo.jpg"
+    
+  - name: "Joonyong Go"
+    role: "B.S. Student"
+    photo: "joony.jpg"
 
+  - name: "Chaeyoon Kim"
+    role: "B.S. Student"
+    photo: "chaey.jpg"
+
+  - name: "Gahyun Cho"
+    role: "B.S. Student"
+    photo: "gah.jpg"
 
 alumni:
 #   - name: "Taeyang Yoon"

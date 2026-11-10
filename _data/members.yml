@@ -55,6 +55,9 @@ undergraduates:
     role: "B.S. Student"
     photo: "gah.jpg"
 
+  - name: "Joonyoung Jeong"
+    role: "B.S. Student"
+    # photo: "gah.jpg"
 alumni:
 #   - name: "Taeyang Yoon"
 #     degree: "M.S."

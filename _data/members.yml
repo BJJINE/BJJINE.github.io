@@ -36,7 +36,7 @@ masters:
   - name: "Priyodarshinee Moitra"
     role: "M.S. Student"
     topic: "ML Security"
-    photo: "roro"
+    photo: "roro.jpg"
 
 undergraduates:
   - name: "Yunseo Cho"
